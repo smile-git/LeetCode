@@ -14,6 +14,9 @@
 		87E93959214B5F4A001DD817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E93957214B5F4A001DD817 /* LaunchScreen.storyboard */; };
 		87E93964214B5F4A001DD817 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E93963214B5F4A001DD817 /* LeetCodeTests.swift */; };
 		87E9396F214B5F4A001DD817 /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9396E214B5F4A001DD817 /* LeetCodeUITests.swift */; };
+		87E9397E214BA322001DD817 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9397D214BA322001DD817 /* AddTwoNumbers.swift */; };
+		87E93980214BA6D0001DD817 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9397F214BA6D0001DD817 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
+		87E93982214BA703001DD817 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E93981214BA703001DD817 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		87E9396A214B5F4A001DD817 /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E9396E214B5F4A001DD817 /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
 		87E93970214B5F4A001DD817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E9397D214BA322001DD817 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		87E9397F214BA6D0001DD817 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		87E93981214BA703001DD817 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		87E9394D214B5F45001DD817 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				87E9397C214BA1E4001DD817 /* Code */,
 				87E9394E214B5F45001DD817 /* AppDelegate.swift */,
 				87E93950214B5F45001DD817 /* ViewController.swift */,
 				87E93952214B5F45001DD817 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				87E93970214B5F4A001DD817 /* Info.plist */,
 			);
 			path = LeetCodeUITests;
+			sourceTree = "<group>";
+		};
+		87E9397C214BA1E4001DD817 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				87E93981214BA703001DD817 /* TwoSum.swift */,
+				87E9397D214BA322001DD817 /* AddTwoNumbers.swift */,
+				87E9397F214BA6D0001DD817 /* LongestSubstringWithoutRepeatingCharacters.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E93982214BA703001DD817 /* TwoSum.swift in Sources */,
+				87E9397E214BA322001DD817 /* AddTwoNumbers.swift in Sources */,
 				87E93951214B5F45001DD817 /* ViewController.swift in Sources */,
 				87E9394F214B5F45001DD817 /* AppDelegate.swift in Sources */,
+				87E93980214BA6D0001DD817 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
