@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        self.leetCodeFunc(type: .AddTwoNumbers_2)
+        self.leetCodeFunc(type: .LongestSubstringWithoutRepeatingCharacters_3)
         
     }
     
